@@ -39,7 +39,16 @@ module.exports = {
     backdropOpacity: ({ theme }) => theme('opacity'),
     backdropSaturate: ({ theme }) => theme('saturate'),
     backdropSepia: ({ theme }) => theme('sepia'),
-    backgroundColor: ({ theme }) => theme('colors'),
+    backgroundColor: () => ({
+      primary: '#231656',
+      secondary: '#625FFB',
+      content: '#4E4E4E',
+      background: '#F5F5F5',
+      purple: '#625FFB',
+      green: '#2FCF3F',
+      'grey-bg': '#F8F8F8',
+      header: '#FFF0EC'
+    }),
     backgroundImage: {
       none: 'none',
       'gradient-to-t': 'linear-gradient(to top, var(--tw-gradient-stops))',
@@ -93,7 +102,8 @@ module.exports = {
       xl: '0.75rem',
       '2xl': '1rem',
       '3xl': '1.5rem',
-      full: '9999px'
+      full: '9999px',
+      button: '72px'
     },
     borderSpacing: ({ theme }) => ({
       ...theme('spacing')
@@ -300,6 +310,9 @@ module.exports = {
       DEFAULT: '1'
     },
     fontFamily: {
+      'open-sans': 'Open Sans',
+      inter: 'Inter',
+      jost: 'Jost',
       sans: [
         'ui-sans-serif',
         'system-ui',
@@ -818,7 +831,15 @@ module.exports = {
     },
     supports: {},
     data: {},
-    textColor: ({ theme }) => theme('colors'),
+    textColor: () => ({
+      white: '#FFF',
+      primary: '#231656',
+      secondary: '#625FFB',
+      content: '#4E4E4E',
+      background: '#F5F5F5',
+      grey: '#B5B5B5',
+      'grey-bg': '#F8F8F8'
+    }),
     textDecorationColor: ({ theme }) => theme('colors'),
     textDecorationThickness: {
       auto: 'auto',
