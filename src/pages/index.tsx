@@ -12,10 +12,10 @@ function Home() {
         <title>PrimePay</title>
       </Head>
       <NavigationBar />
-      <main className="pb-20">
+      <main className="lg:pb-20">
         <Header />
         <Steps />
-        <About />
+        {/* <About /> */}
       </main>
       <Footer />
     </>

@@ -58,7 +58,8 @@ module.exports = {
       'gradient-to-b': 'linear-gradient(to bottom, var(--tw-gradient-stops))',
       'gradient-to-bl': 'linear-gradient(to bottom left, var(--tw-gradient-stops))',
       'gradient-to-l': 'linear-gradient(to left, var(--tw-gradient-stops))',
-      'gradient-to-tl': 'linear-gradient(to top left, var(--tw-gradient-stops))'
+      'gradient-to-tl': 'linear-gradient(to top left, var(--tw-gradient-stops))',
+      subscribe: 'url(/images/footer/subscribebg.png)'
     },
     backgroundOpacity: ({ theme }) => theme('opacity'),
     backgroundPosition: {
@@ -354,7 +355,14 @@ module.exports = {
       '6xl': ['3.75rem', { lineHeight: '1' }],
       '7xl': ['4.5rem', { lineHeight: '1' }],
       '8xl': ['6rem', { lineHeight: '1' }],
-      '9xl': ['8rem', { lineHeight: '1' }]
+      '9xl': ['8rem', { lineHeight: '1' }],
+      header: '47px',
+      headerSm: '60px',
+      headerLg: '80px',
+      subscribe: '37px',
+      subscribeMd: '43px',
+      subscribeSm: '50px',
+      subscribeLg: '55px'
     },
     fontWeight: {
       thin: '100',
@@ -509,7 +517,8 @@ module.exports = {
       screen: '100vh',
       min: 'min-content',
       max: 'max-content',
-      fit: 'fit-content'
+      fit: 'fit-content',
+      subscribe: '150px'
     }),
     hueRotate: {
       0: '0deg',
@@ -623,6 +632,8 @@ module.exports = {
       max: 'max-content',
       fit: 'fit-content',
       prose: '65ch',
+      content: '1400px',
+      container: '1747px',
       ...breakpoints(theme('screens'))
     }),
     minHeight: {
@@ -638,7 +649,8 @@ module.exports = {
       full: '100%',
       min: 'min-content',
       max: 'max-content',
-      fit: 'fit-content'
+      fit: 'fit-content',
+      subscribeInputLg: '347px'
     },
     objectPosition: {
       bottom: 'bottom',
@@ -700,7 +712,17 @@ module.exports = {
       4: '4px',
       8: '8px'
     },
-    padding: ({ theme }) => theme('spacing'),
+    padding: ({ theme }) => ({
+      ...theme('spacing'),
+      steps: '400px 1rem 0px 1rem',
+      stepsLg: '490px 0px 10rem 0px',
+      subscribe: '30px 20px 30px 20px',
+      subscribeMd: '30px 55px 30px 55px',
+      subscribeLg: '94px 55px',
+      footerLinks: '100px 0px 50px 0px',
+      footerLinksLg: '107px 0px 263px 0px',
+      footerLinksXl: '107px 2rem 263px 2rem'
+    }),
     placeholderColor: ({ theme }) => theme('colors'),
     placeholderOpacity: ({ theme }) => theme('opacity'),
     ringColor: ({ theme }) => ({
@@ -954,7 +976,9 @@ module.exports = {
       screen: '100vw',
       min: 'min-content',
       max: 'max-content',
-      fit: 'fit-content'
+      fit: 'fit-content',
+      content: '1400px',
+      container: '1747px'
     }),
     willChange: {
       auto: 'auto',
@@ -964,6 +988,7 @@ module.exports = {
     },
     zIndex: {
       auto: 'auto',
+      negative: '-1',
       0: '0',
       10: '10',
       20: '20',

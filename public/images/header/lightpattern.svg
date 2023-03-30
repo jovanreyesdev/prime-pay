@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="-164.72 0 1805.52 731.385" width="1805.52" height="731.385" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="paint0_linear_3_2107" x1="145.719" y1="-209.281" x2="145.719" y2="820.059" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1, 0, 0, 1, 0, 0)">
+      <stop stop-color="white"/>
+      <stop offset="1" stop-color="white" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="paint0_linear_3_2105" x1="208.5" y1="-139.5" x2="208.5" y2="787.217" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1, 0, 0, 1, 0, 0)">
+      <stop stop-color="white"/>
+      <stop offset="1" stop-color="white" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="paint0_linear_3_2106" x1="20.2012" y1="-277.799" x2="20.2012" y2="334.679" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1, 0, 0, 1, 0, 0)">
+      <stop stop-color="white"/>
+      <stop offset="1" stop-color="white" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect x="-21" y="-209.281" width="333.438" height="1029.34" rx="58" transform="matrix(0.866025, -0.5, 0.5, 0.866025, 935.261197, -83.590754)" fill="url(#paint0_linear_3_2107)" fill-opacity="0.25"/>
+  <rect x="-36" y="-139.5" width="489" height="926.717" rx="58" transform="matrix(0.866025, -0.5, 0.5, 0.866025, -81.449557, -3.210861)" fill="url(#paint0_linear_3_2105)" fill-opacity="0.18"/>
+  <rect x="-11" y="-277.799" width="62.402" height="612.478" rx="31.201" transform="matrix(0.866025, -0.5, 0.5, 0.866025, 490.623031, 9.556703)" fill="url(#paint0_linear_3_2106)" fill-opacity="0.34"/>
+</svg>

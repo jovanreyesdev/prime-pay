@@ -3,38 +3,36 @@ import SubscribeBg from 'public/images/footer/subscribebg.png';
 import { ReactSVG } from 'react-svg';
 
 function Footer() {
-  console.log(SubscribeBg.src);
   return (
     <footer>
-      <div className="mx-auto pt-40" style={{ maxWidth: 1747 }}>
-        <div className="flex bg-background mx-auto items-end justify-center mx-auto" style={{ maxHeight: 150, maxWidth: 1747 }}>
-          <div className="flex w-full mx-auto" style={{ padding: '94px 55px', background: `url(${SubscribeBg.src})`, maxWidth: 1400, height: 299 }}>
-            <div className="leading-none flex-1 font-jost text-primary font-semibold" style={{ fontSize: 55 }}>
+      <div className="mx-auto lg:pt-30 xl:pt-40">
+        <div className="flex bg-background mx-auto items-end justify-center mx-auto max-w-container xl:h-subscribe">
+          <div
+            className="flex flex-col lg:flex-row w-full mx-auto max-w-content bg-subscribe bg-cover xl:bg-contain bg-no-repeat bg-center p-subscribe md-subscribeMd lg:p-subscribeLg"
+          >
+            <div className="leading-none mb-5 flex-1 font-jost text-primary font-semibold text-subscribe sm:text-subscribeSm md:text-subscribeMd lg:text-subscribeLg">
               Take control of your
               personal <span className="text-white">finances today</span>
             </div>
             <div className="flex items-center flex-1">
-              <div className="flex justify-end flex-1">
+              <div className="flex flex-col lg:flex-row lg:justify-end flex-1">
                 <input
-                  className="rounded-button p-5 mr-6 font-open-sans"
+                  className="w-full lg:w-min lg:min-w-subscribeInputLg mb-5 lg:mb-0 rounded-button p-5 mr-6 font-open-sans"
                   placeholder="Enter your email"
                   type="text"
-                  style={{
-                    minWidth: 347
-                  }}
                 />
                 <button className="rounded-button p-5 font-inter text-white bg-primary" style={{ minWidth: 160 }} type="button">SUBSCRIBE</button>
               </div>
             </div>
           </div>
         </div>
-        <div className="bg-background mx-auto" style={{ paddingBottom: 107, paddingTop: 263, maxWidth: 1747 }}>
-          <div className="flex mx-auto" style={{ maxWidth: 1400 }}>
-            <div className="">
+        <div className="bg-background mx-auto max-w-container p-footerLinks lg:p-footerLinksLg xl:p-footerLinksXl">
+          <div className="flex flex-col xl:flex-row mx-auto max-w-content px-14 xl:px-0">
+            <div className="mb-20">
               <div className="mb-8">
                 <ReactSVG src="/primepay-logo.svg" height="57" width="186" />
               </div>
-              <div className="font-open-sans text-xl mb-8" style={{ maxWidth: 445 }}>
+              <div className="font-open-sans leading-normal text-xl mb-8" style={{ maxWidth: 445 }}>
                 Lorem ipsum dolor sitonsecteturadipisicing elit sed do eiusmod temporincididunt Laoreet non 
                 sagittis aliquam bibendum.
               </div>
@@ -46,9 +44,9 @@ function Footer() {
                 <ReactSVG src="/images/footer/youtube.svg" />
               </div>
             </div>
-            <div className="mx-20 border-r border-solid border-gray-300" />
-            <div className="flex justify-between flex-1">
-              <div>
+            <div className="hidden lg:block lg:mx-14 xl:mx-20 border-r border-solid border-gray-300" />
+            <div className="flex flex-col lg:flex-row justify-between flex-1">
+              <div className="mb-20">
                 <div className="text-3xl text-primary font-jost font-semibold mb-5">
                   Menu
                 </div>
@@ -61,7 +59,7 @@ function Footer() {
                 <div className="text-xl mb-3">Blog</div>
                 <div className="text-xl mb-3">How it Work</div>
               </div>
-              <div>
+              <div className="mb-20">
                 <div className="text-3xl text-primary font-jost font-semibold mb-5">
                   Utility Pages
                 </div>
@@ -73,7 +71,7 @@ function Footer() {
                 <div className="text-xl mb-3">Licenses</div>
                 <div className="text-xl mb-3">Changelog</div>
               </div>
-              <div>
+              <div className="mb-20">
                 <div className="text-3xl text-primary font-jost font-semibold mb-5">
                   Address & Contact
                 </div>
@@ -83,15 +81,17 @@ function Footer() {
                   port south USA, America
                 </div>
                 <div className="text-xl mb-3">+3255 456 789</div>
-                <div className="text-xl mb-3">mail@primpay.com</div>
+                <div className="text-xl mb-5 lg:mb-10">mail@primepay.com</div>
                 <button type="button" className="rounded-button py-3 px-6 bg-purple text-white font-inter">GET A QUOTE</button>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div className="text-open-sans text-xl py-6 flex justify-center">
-        Copyright © Designed by VictorFlow Templates | Developed by&nbsp;<span className="font-bold">jovanreyesdev</span>
+      <div className="text-open-sans md:text-xl py-6 flex flex-col items-center justify-center">
+        <div>Copyright © Designed by VictorFlow Templates</div>
+        <div className="hidden">|</div>
+        <div>Developed by&nbsp;<span className="font-bold">jovanreyesdev</span></div>
       </div>
     </footer>
   )

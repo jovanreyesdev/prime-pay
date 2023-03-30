@@ -7,7 +7,7 @@ import Mobile from 'public/images/about/mobile.png';
 
 function About() {
   return (
-    <div className="pt-40 mx-auto border-b border-solid border-gray-300" style={{ paddingBottom: 275, maxWidth: 1400 }}>
+    <div className="pt-40 mx-auto border-b border-solid border-gray-300 max-w-content" style={{ paddingBottom: 275 }}>
       <div className="flex">
         <div className="flex-1 mb-16">
           <div style={{ maxWidth: 560 }}>

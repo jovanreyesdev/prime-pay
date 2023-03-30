@@ -14,15 +14,17 @@ function Header() {
   return (
     <div className="mb-20 relative">
       <div
-        className="bg-header mx-auto rounded-3xl relative"
+        className="bg-header mx-auto rounded-3xl relative max-w-container"
         style={{
           height: 1029,
-          maxWidth: 1744,
           backgroundImage: `url(${HeaderBG.src})`
         }}
       >
         <div className="pt-32 relative">
-          <h1 className="mx-auto text-primary text-center font-jost font-semibold mb-8" style={{ fontSize: 80, maxWidth: 796 }}>
+          <h1
+            className="mx-auto text-primary text-center font-jost font-semibold mb-8 text-header sm:text-headerSm lg:text-headerLg"
+            style={{ maxWidth: 796 }}
+          >
             Ready To Launch Your
             Online <span className="text-white">Payment</span> App
           </h1>
@@ -39,18 +41,17 @@ function Header() {
             alt="Mobile Phone"
             className="pt-10 mx-auto"
           />
-          <ReactSVG className="absolute" style={{ bottom: '9rem', right: 532 }} src="images/header/object_1.svg" />
-          <ReactSVG className="absolute" style={{ bottom: '6rem', right: 481 }} src="images/header/object_2.svg" />
-          <ReactSVG className="absolute" style={{ bottom: '3rem', right: 572 }} src="images/header/object_3.svg" />
         </div>
       </div>
-      <ReactSVG className="absolute top-0 left-16" src="images/header/pattern_1.svg" />
-      <ReactSVG className="absolute top-0" style={{ left: '34rem' }} src="images/header/pattern_2.svg" />
-      <ReactSVG  className="absolute top-0 right-16" src="images/header/pattern_3.svg" />
-      <ReactSVG className="absolute top-10 left-10" src="images/header/objects.svg" />
-      <Image className="absolute" style={{ top: 541, left: 316 }} src={Cash.src} height={156} width={211} />
-      <Image className="absolute" style={{ top: 738, right: 316 }} src={Card.src} height={156} width={211} />
-      <Image className="absolute" style={{ bottom: -306, left: 445 }} src={Chat.src} height={156} width={211} />
+      <div className="overflow-x-hidden objects flex items-start justify-center">
+        <ReactSVG src="images/header/lightpattern.svg" />
+      </div>
+      <div className="overflow-x-hidden objects flex items-center justify-center">
+        <ReactSVG src="images/header/objects.svg" />
+      </div>
+      <div className="overflow-x-hidden objects flex items-center justify-center">
+        <ReactSVG src="images/header/objects2.svg" />
+      </div>
     </div>
   )
 }
