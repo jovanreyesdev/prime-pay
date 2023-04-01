@@ -1,7 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
 import { ReactSVG } from 'react-svg';
-import HeaderBG from 'public/images/header/bg.png';
 import Mobile from 'public/images/header/mobile.png';
 import Pattern1 from 'public/images/header/pattern_1.png';
 import Pattern2 from 'public/images/header/pattern_2.png';
@@ -14,11 +13,8 @@ function Header() {
   return (
     <div className="mb-20 relative">
       <div
-        className="bg-header mx-auto rounded-3xl relative max-w-container"
-        style={{
-          height: 1029,
-          backgroundImage: `url(${HeaderBG.src})`
-        }}
+        className="bg-header mx-auto rounded-3xl relative max-w-container bg-header bg-no-repeat bg-center"
+        style={{ height: 1029 }}
       >
         <div className="pt-32 relative">
           <h1

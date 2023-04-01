@@ -15,7 +15,7 @@ function Home() {
       <main className="lg:pb-20">
         <Header />
         <Steps />
-        {/* <About /> */}
+        <About />
       </main>
       <Footer />
     </>

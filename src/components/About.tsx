@@ -1,17 +1,15 @@
 import React from 'react';
 import { ReactSVG } from 'react-svg';
 import Image from 'next/image';
-
-import MobileBg from 'public/images/about/mobilebg.png';
 import Mobile from 'public/images/about/mobile.png';
 
 function About() {
   return (
-    <div className="pt-40 mx-auto border-b border-solid border-gray-300 max-w-content" style={{ paddingBottom: 275 }}>
-      <div className="flex">
+    <div className="pt-20 pb-20 xl:pt-40 xl:pb-40 mx-auto xl:border-b xl:border-solid xl:border-gray-300 max-w-content">
+      <div className="flex flex-col xl:flex-row items-center p-stats sm:p-statsSm xl:p-statsLg">
         <div className="flex-1 mb-16">
-          <div style={{ maxWidth: 560 }}>
-            <div className="text-grey font-jost font-semibold mb-7 text-5xl" style={{ fontSize: 50 }}>
+          <div className="px-7 lg:px-0" style={{ maxWidth: 560 }}>
+            <div className="leading-none sm:text-subscribeSm md:text-subscribeMd lg:text-subscribeLg text-grey font-jost font-semibold mb-7 text-5xl">
               Send and receive <span className="text-primary">payments</span> easily
             </div>
             <div className="font-open-sans text-xl text-content mb-7">
@@ -36,13 +34,7 @@ function About() {
             </div>
           </div>
         </div>
-        <div className="relative">
-          <Image
-            src={MobileBg.src}
-            width={703}
-            height={507}
-            alt="Background"
-          />
+        <div className="relative bg-contain bg-no-repeat bg-center w-full lg:w-aboutMobile bg-about" style={{ height: 462 }}> 
           <Image
             src={Mobile.src}
             width={406}
@@ -53,29 +45,29 @@ function About() {
         </div>
       </div>
       <div className="bg-background">
-        <div className="flex" style={{ padding: '91.5px 0', maxWidth: 812 }}>
-          <div className="border-r border-solid border-gray-300 px-16">
-            <div className="font-jost font-semibold text-4xl">
+        <div className="flex flex-col xl:flex-row justify-center items-center xl:justify-start mx-w-full xl:mx-w-stats py-12 xl:py-24">
+          <div className="text-center mb-10 xl:mb-0 xl:border-r border-solid border-gray-300 px-12 lg:px-16">
+            <div className="font-jost font-semibold text-3xl lg:text-4xl">
               120M +
             </div>
             <div className="font-open-sans font-xl">
               Downloaded
             </div>
           </div>
-          <div className="border-r border-solid border-gray-300 px-16">
-            <div className="font-jost font-semibold text-4xl">
-              $10 M
+          <div className="text-center mb-10 xl:mb-0 xl:border-r border-solid border-gray-300 px-12 lg:px-16">
+            <div className="font-jost font-semibold text-3xl lg:text-4xl">
+              $10M +
             </div>
             <div className="font-open-sans font-xl">
               Transactions
             </div>
           </div>
-          <div className="px-16">
-            <div className="font-jost font-semibold text-4xl">
-              1.000 +
+          <div className="text-center mb-10 xl:mb-0 px-12 lg:px-16">
+            <div className="font-jost font-semibold text-3xl lg:text-4xl">
+              1000 +
             </div>
             <div className="font-open-sans font-xl">
-              Feedback
+              Positive Feedbacks
             </div>
           </div>
         </div>

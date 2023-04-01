@@ -59,7 +59,9 @@ module.exports = {
       'gradient-to-bl': 'linear-gradient(to bottom left, var(--tw-gradient-stops))',
       'gradient-to-l': 'linear-gradient(to left, var(--tw-gradient-stops))',
       'gradient-to-tl': 'linear-gradient(to top left, var(--tw-gradient-stops))',
-      subscribe: 'url(/images/footer/subscribebg.png)'
+      header: 'url(/images/header/bg.png)',
+      subscribe: 'url(/images/footer/subscribebg.png)',
+      about: 'url(/images/about/mobilebg.png)'
     },
     backgroundOpacity: ({ theme }) => theme('opacity'),
     backgroundPosition: {
@@ -634,6 +636,7 @@ module.exports = {
       prose: '65ch',
       content: '1400px',
       container: '1747px',
+      stats: '812px',
       ...breakpoints(theme('screens'))
     }),
     minHeight: {
@@ -721,7 +724,10 @@ module.exports = {
       subscribeLg: '94px 55px',
       footerLinks: '100px 0px 50px 0px',
       footerLinksLg: '107px 0px 263px 0px',
-      footerLinksXl: '107px 2rem 263px 2rem'
+      footerLinksXl: '107px 2rem 263px 2rem',
+      stats: '0px 0px 30rem 0px',
+      statsSm: '0px 0px 40rem 0px',
+      statsLg: '0px 3rem 5rem 3rem'
     }),
     placeholderColor: ({ theme }) => theme('colors'),
     placeholderOpacity: ({ theme }) => theme('opacity'),
@@ -978,7 +984,8 @@ module.exports = {
       max: 'max-content',
       fit: 'fit-content',
       content: '1400px',
-      container: '1747px'
+      container: '1747px',
+      aboutMobile: '40rem',
     }),
     willChange: {
       auto: 'auto',
