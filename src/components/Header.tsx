@@ -46,7 +46,10 @@ function Header() {
         <ReactSVG src="images/header/objects.svg" />
       </div>
       <div className="overflow-x-hidden objects flex items-center justify-center">
-        <ReactSVG src="images/header/objects2.svg" />
+        <ReactSVG className="levitate float" src="images/header/objects2.svg" />
+      </div>
+      <div className="overflow-x-hidden chatobject flex items-center justify-center">
+        <ReactSVG className="levitate float2" src="images/header/objects3.svg" />
       </div>
     </div>
   )

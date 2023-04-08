@@ -5,7 +5,7 @@ import Mobile from 'public/images/about/mobile.png';
 
 function About() {
   return (
-    <div className="pt-20 pb-20 xl:pt-40 xl:pb-40 mx-auto xl:border-b xl:border-solid xl:border-gray-300 max-w-content">
+    <div className="pt-20 pb-20 xl:pt-40 xl:pb-40 mx-auto xl:border-b xl:border-solid xl:border-gray-300 max-w-content 2xl:max-w-contentXl">
       <div className="flex flex-col xl:flex-row items-center p-stats sm:p-statsSm xl:p-statsLg">
         <div className="flex-1 mb-16">
           <div className="px-7 lg:px-0" style={{ maxWidth: 560 }}>

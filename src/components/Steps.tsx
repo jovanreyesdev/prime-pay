@@ -12,7 +12,7 @@ function Steps() {
           src="images/objects.svg"
         />
       </div>
-      <div className="flex flex-col lg:flex-row items-center justify-between mx-auto max-w-content">
+      <div className="flex flex-col lg:flex-row items-center justify-between mx-auto max-w-content 2xl:max-w-contentXl">
         <div className="mb-20 lg:mb-0" style={{ maxWidth: 430 }}>
           <div className="flex justify-center">
             <ReactSVG width={322} height={87} src="images/steps/step_1.svg" />

@@ -361,9 +361,8 @@ module.exports = {
       header: '47px',
       headerSm: '60px',
       headerLg: '80px',
-      subscribe: '37px',
-      subscribeMd: '43px',
-      subscribeSm: '50px',
+      subscribe: '24px',
+      subscribeSm: '40px',
       subscribeLg: '55px'
     },
     fontWeight: {
@@ -634,7 +633,8 @@ module.exports = {
       max: 'max-content',
       fit: 'fit-content',
       prose: '65ch',
-      content: '1400px',
+      content: '1200px',
+      contentXl: '1400px',
       container: '1747px',
       stats: '812px',
       ...breakpoints(theme('screens'))
@@ -719,8 +719,8 @@ module.exports = {
       ...theme('spacing'),
       steps: '400px 1rem 0px 1rem',
       stepsLg: '490px 0px 10rem 0px',
-      subscribe: '30px 20px 30px 20px',
-      subscribeMd: '30px 55px 30px 55px',
+      subscribe: '80px 20px 80px 20px',
+      subscribeMd: '80px 55px 80px 55px',
       subscribeLg: '94px 55px',
       footerLinks: '100px 0px 50px 0px',
       footerLinksLg: '107px 0px 263px 0px',

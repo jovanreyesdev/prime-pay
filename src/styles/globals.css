@@ -116,6 +116,45 @@ a {
   left: 0;
 }
 
+.chatobject {
+  position: absolute;
+  right: 0;
+  left: 0;
+}
+
+.levitate {
+  position: relative;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+.float {
+  animation-name: levitate;
+}
+
+.float2 {
+  animation-name: levitate2;
+}
+
+@keyframes levitate {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes levitate2 {
+  0%, 50%, 100% {
+    transform: translateY(0);
+  }
+  25%, 75% {
+    transform: translateY(-20px);
+  }
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

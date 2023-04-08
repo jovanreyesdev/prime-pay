@@ -3,7 +3,7 @@ import { ReactSVG } from 'react-svg';
 
 function NavigationBar() {
   return (
-    <nav className="py-10 mx-auto max-w-content">
+    <nav className="py-10 mx-auto max-w-content 2xl:max-w-contentXl hidden lg:block">
       <div className="flex justify-between mx-10 xl:mx-0">
         <ReactSVG
           src="/primepay-logo.svg"

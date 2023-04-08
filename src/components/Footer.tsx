@@ -8,9 +8,9 @@ function Footer() {
       <div className="mx-auto lg:pt-30 xl:pt-40">
         <div className="flex bg-background mx-auto items-end justify-center mx-auto max-w-container xl:h-subscribe">
           <div
-            className="flex flex-col lg:flex-row w-full mx-auto max-w-content bg-subscribe bg-cover xl:bg-contain bg-no-repeat bg-center p-subscribe md-subscribeMd lg:p-subscribeLg"
+            className="flex flex-col lg:flex-row w-full mx-auto max-w-content 2xl:max-w-contentXl bg-subscribe bg-cover xl:bg-contain bg-no-repeat bg-center p-subscribe md-subscribeMd lg:p-subscribeLg"
           >
-            <div className="leading-none mb-5 flex-1 font-jost text-primary font-semibold text-subscribe sm:text-subscribeSm md:text-subscribeMd lg:text-subscribeLg">
+            <div className="leading-none mb-5 flex-1 font-jost text-primary font-semibold text-subscribe sm:text-subscribeSm lg:text-subscribeLg">
               Take control of your
               personal <span className="text-white">finances today</span>
             </div>
@@ -27,7 +27,7 @@ function Footer() {
           </div>
         </div>
         <div className="bg-background mx-auto max-w-container p-footerLinks lg:p-footerLinksLg xl:p-footerLinksXl">
-          <div className="flex flex-col xl:flex-row mx-auto max-w-content px-14 xl:px-0">
+          <div className="flex flex-col xl:flex-row mx-auto max-w-content 2xl:max-w-contentXl px-14 xl:px-0">
             <div className="mb-20">
               <div className="mb-8">
                 <ReactSVG src="/primepay-logo.svg" height="57" width="186" />
