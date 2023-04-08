@@ -6,16 +6,16 @@ import Mobile from 'public/images/about/mobile.png';
 function About() {
   return (
     <div className="pt-20 pb-20 xl:pt-40 xl:pb-40 mx-auto xl:border-b xl:border-solid xl:border-gray-300 max-w-content 2xl:max-w-contentXl">
-      <div className="flex flex-col xl:flex-row items-center p-stats sm:p-statsSm xl:p-statsLg">
+      <div className="flex flex-col xl:flex-row items-center stats">
         <div className="flex-1 mb-16">
-          <div className="px-7 lg:px-0" style={{ maxWidth: 560 }}>
+          <div className="px-7 lg:px-0 max-w-xl">
             <div className="leading-none sm:text-subscribeSm md:text-subscribeMd lg:text-subscribeLg text-grey font-jost font-semibold mb-7 text-5xl">
               Send and receive <span className="text-primary">payments</span> easily
             </div>
-            <div className="font-open-sans text-xl text-content mb-7">
+            <div className="font-open-sans text-xl text-content xl:max-w-md mb-7">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
             </div>
-            <div className="font-open-sans text-xl text-content">
+            <div className="font-open-sans text-xl text-content xl:max-w-md">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </div>
             <div className="border-b border-gray-300 border-solid pt-10 mb-10"></div>
@@ -45,8 +45,8 @@ function About() {
         </div>
       </div>
       <div className="bg-background">
-        <div className="flex flex-col xl:flex-row justify-center items-center xl:justify-start mx-w-full xl:mx-w-stats py-12 xl:py-24">
-          <div className="text-center mb-10 xl:mb-0 xl:border-r border-solid border-gray-300 px-12 lg:px-16">
+        <div className="flex flex-col md:flex-row justify-center items-center xl:justify-start max-w-full xl:max-w-stats py-12 xl:py-24">
+          <div className="text-center mb-10 md:mb-0 xl:border-r border-solid border-gray-300 px-12 lg:px-10 2xl:px-16">
             <div className="font-jost font-semibold text-3xl lg:text-4xl">
               120M +
             </div>
@@ -54,7 +54,7 @@ function About() {
               Downloaded
             </div>
           </div>
-          <div className="text-center mb-10 xl:mb-0 xl:border-r border-solid border-gray-300 px-12 lg:px-16">
+          <div className="text-center mb-10 md:mb-0 xl:border-r border-solid border-gray-300 px-12 lg:px-10 2xl:px-16">
             <div className="font-jost font-semibold text-3xl lg:text-4xl">
               $10M +
             </div>
@@ -62,7 +62,7 @@ function About() {
               Transactions
             </div>
           </div>
-          <div className="text-center mb-10 xl:mb-0 px-12 lg:px-16">
+          <div className="text-center mb-10 md:mb-0 px-12 lg:px-10 2xl:px-16">
             <div className="font-jost font-semibold text-3xl lg:text-4xl">
               1000 +
             </div>

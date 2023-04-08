@@ -551,6 +551,12 @@ video {
 .max-w-content {
   max-width: 1200px;
 }
+.max-w-full {
+  max-width: 100%;
+}
+.max-w-xl {
+  max-width: 36rem;
+}
 .flex-1 {
   flex: 1 1 0%;
 }
@@ -647,9 +653,6 @@ video {
 .p-footerLinks {
   padding: 100px 0px 50px 0px;
 }
-.p-stats {
-  padding: 0px 0px 30rem 0px;
-}
 .p-steps {
   padding: 400px 1rem 0px 1rem;
 }
@@ -699,6 +702,10 @@ video {
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+}
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
 }
 .pb-20 {
   padding-bottom: 5rem;
@@ -751,7 +758,7 @@ video {
   line-height: 1.25rem;
 }
 .text-subscribe {
-  font-size: 24px;
+  font-size: 3rem;
 }
 .text-xl {
   font-size: 1.25rem;
@@ -790,10 +797,6 @@ video {
 }
 @media (min-width: 640px) {
 
-  .sm\:p-statsSm {
-    padding: 0px 0px 40rem 0px;
-  }
-
   .sm\:text-headerSm {
     font-size: 60px;
   }
@@ -803,6 +806,23 @@ video {
   }
 }
 @media (min-width: 768px) {
+
+  .md\:mb-0 {
+    margin-bottom: 0px;
+  }
+
+  .md\:max-w-md {
+    max-width: 28rem;
+  }
+
+  .md\:flex-row {
+    flex-direction: row;
+  }
+
+  .md\:px-14 {
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+  }
 
   .md\:text-xl {
     font-size: 1.25rem;
@@ -845,6 +865,10 @@ video {
     min-width: 347px;
   }
 
+  .lg\:max-w-content {
+    max-width: 1200px;
+  }
+
   .lg\:flex-row {
     flex-direction: row;
   }
@@ -870,9 +894,9 @@ video {
     padding-right: 0px;
   }
 
-  .lg\:px-16 {
-    padding-left: 4rem;
-    padding-right: 4rem;
+  .lg\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
   }
 
   .lg\:pb-20 {
@@ -916,6 +940,14 @@ video {
     height: 150px;
   }
 
+  .xl\:max-w-md {
+    max-width: 28rem;
+  }
+
+  .xl\:max-w-stats {
+    max-width: 812px;
+  }
+
   .xl\:flex-row {
     flex-direction: row;
   }
@@ -945,12 +977,12 @@ video {
     background-size: contain;
   }
 
-  .xl\:p-footerLinksXl {
-    padding: 107px 2rem 263px 2rem;
+  .xl\:bg-cover {
+    background-size: cover;
   }
 
-  .xl\:p-statsLg {
-    padding: 0px 3rem 5rem 3rem;
+  .xl\:p-footerLinksXl {
+    padding: 107px 2rem 263px 2rem;
   }
 
   .xl\:px-0 {
@@ -975,5 +1007,10 @@ video {
 
   .\32xl\:max-w-contentXl {
     max-width: 1400px;
+  }
+
+  .\32xl\:px-16 {
+    padding-left: 4rem;
+    padding-right: 4rem;
   }
 }

@@ -361,7 +361,7 @@ module.exports = {
       header: '47px',
       headerSm: '60px',
       headerLg: '80px',
-      subscribe: '24px',
+      subscribe: '3rem',
       subscribeSm: '40px',
       subscribeLg: '55px'
     },

@@ -8,13 +8,13 @@ function Footer() {
       <div className="mx-auto lg:pt-30 xl:pt-40">
         <div className="flex bg-background mx-auto items-end justify-center mx-auto max-w-container xl:h-subscribe">
           <div
-            className="flex flex-col lg:flex-row w-full mx-auto max-w-content 2xl:max-w-contentXl bg-subscribe bg-cover xl:bg-contain bg-no-repeat bg-center p-subscribe md-subscribeMd lg:p-subscribeLg"
+            className="flex flex-col lg:flex-row w-full mx-auto max-w-content 2xl:max-w-contentXl bg-subscribe bg-cover xl:bg-cover bg-no-repeat bg-center p-subscribe md-subscribeMd lg:p-subscribeLg"
           >
-            <div className="leading-none mb-5 flex-1 font-jost text-primary font-semibold text-subscribe sm:text-subscribeSm lg:text-subscribeLg">
+            <div className="leading-none md:max-w-md lg:max-w-content mx-auto flex-1 font-jost text-primary font-semibold text-5xl mb-20 lg:mb-0">
               Take control of your
               personal <span className="text-white">finances today</span>
             </div>
-            <div className="flex items-center flex-1">
+            <div className="flex w-full md:max-w-md lg:max-w-content mx-auto items-center flex-1">
               <div className="flex flex-col lg:flex-row lg:justify-end flex-1">
                 <input
                   className="w-full lg:w-min lg:min-w-subscribeInputLg mb-5 lg:mb-0 rounded-button p-5 mr-6 font-open-sans"
@@ -27,7 +27,7 @@ function Footer() {
           </div>
         </div>
         <div className="bg-background mx-auto max-w-container p-footerLinks lg:p-footerLinksLg xl:p-footerLinksXl">
-          <div className="flex flex-col xl:flex-row mx-auto max-w-content 2xl:max-w-contentXl px-14 xl:px-0">
+          <div className="flex flex-col xl:flex-row mx-auto max-w-content 2xl:max-w-contentXl px-5 md:px-14 xl:px-0">
             <div className="mb-20">
               <div className="mb-8">
                 <ReactSVG src="/primepay-logo.svg" height="57" width="186" />
@@ -89,7 +89,7 @@ function Footer() {
         </div>
       </div>
       <div className="text-open-sans md:text-xl py-6 flex flex-col items-center justify-center">
-        <div>Copyright © Designed by VictorFlow Templates</div>
+        <div className="text-center">Copyright © Designed by VictorFlow Templates</div>
         <div className="hidden">|</div>
         <div>Developed by&nbsp;<span className="font-bold">jovanreyesdev</span></div>
       </div>

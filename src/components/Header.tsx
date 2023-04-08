@@ -43,7 +43,7 @@ function Header() {
         <ReactSVG src="images/header/lightpattern.svg" />
       </div>
       <div className="overflow-x-hidden objects flex items-center justify-center">
-        <ReactSVG src="images/header/objects.svg" />
+        <ReactSVG className="twinkle" src="images/header/objects.svg" />
       </div>
       <div className="overflow-x-hidden objects flex items-center justify-center">
         <ReactSVG className="levitate float" src="images/header/objects2.svg" />

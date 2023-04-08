@@ -85,7 +85,8 @@ body {
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
+  background: #fff;
+  color: black;
 }
 
 a {
@@ -129,6 +130,14 @@ a {
   animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
 }
 
+.twinkle {
+  animation-name: twinkling;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+
 .float {
   animation-name: levitate;
 }
@@ -158,5 +167,17 @@ a {
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
+  }
+}
+
+@keyframes twinkling {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
   }
 }
