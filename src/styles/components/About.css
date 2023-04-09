@@ -1,29 +1,29 @@
 .stats {
-  padding-bottom: 30rem;
+  padding-bottom: 20rem;
 }
 
 @media (min-width: 375px) {
   .stats {
-    padding-bottom: 35rem;
-  } 
-}
-
-@media (min-width: 425px) {
-  .stats {
-    padding-bottom: 37rem;
+    padding-bottom: 25rem;
   } 
 }
 
 @media (min-width: 640px) {
   .stats {
-    padding-bottom: 40rem;
+    padding-bottom: 25rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .stats {
+    padding-bottom: 35rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
   }
 }
 
 @media (min-width: 1280px) {
   .stats {
     padding-bottom: 5rem;
-    padding-left: 3rem;
-    padding-right: 3rem;
   }
 }

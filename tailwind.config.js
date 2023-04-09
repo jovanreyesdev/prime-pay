@@ -717,7 +717,7 @@ module.exports = {
     },
     padding: ({ theme }) => ({
       ...theme('spacing'),
-      steps: '400px 1rem 0px 1rem',
+      steps: '160px 1rem 0px 1rem',
       stepsLg: '490px 0px 10rem 0px',
       subscribe: '80px 20px 80px 20px',
       subscribeMd: '80px 55px 80px 55px',

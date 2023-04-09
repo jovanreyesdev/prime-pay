@@ -1,0 +1,21 @@
+.steps-container {
+  padding: 10rem 1rem 0px 1rem;
+}
+
+@media (min-width: 375px) {
+  .steps-container {
+    padding: 15rem 1rem 0rem 1rem;
+  }
+}
+
+@media (min-width: 425px) {
+  .steps-container {
+    padding: 20rem 1rem 0rem 1rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .steps-container {
+    padding: 30rem 0rem 10rem 0rem;
+  }
+}

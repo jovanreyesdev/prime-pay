@@ -35,7 +35,7 @@ function Header() {
             height={934}
             src={Mobile.src}
             alt="Mobile Phone"
-            className="pt-10 mx-auto"
+            className="pt-10 mx-auto scale-75 lg:scale-100"
           />
         </div>
       </div>

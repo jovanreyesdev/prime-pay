@@ -4,7 +4,7 @@ import { ReactSVG } from 'react-svg';
 function Steps() {
   return (
     <div
-      className="relative bg-background mx-auto rounded-3xl overflow-x-hidden max-w-container z-negative p-steps lg:p-stepsLg">
+      className="relative bg-background mx-auto rounded-3xl overflow-x-hidden max-w-container z-negative steps-container">
       <div className="absolute flex items-start justify-center top-0 left-0 right-0">
         <ReactSVG
           width={322}

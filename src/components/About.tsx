@@ -40,7 +40,7 @@ function About() {
             width={406}
             height={867}
             alt="Mobile"
-            className="absolute about-mobile"
+            className="absolute about-mobile scale-75 lg:scale-100"
           />
         </div>
       </div>

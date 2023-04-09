@@ -95,10 +95,18 @@ a {
 }
 
 .about-mobile {
-  top: 35rem;
+  top: 30rem;
   left: 50%;
   margin-right: -50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%) scale(0.75);
+}
+
+
+@media (min-width: 992px) {
+  .about-mobile {
+    top: 35rem;
+    transform: translate(-50%, -50%);
+  }
 }
 
 .light-pattern {
